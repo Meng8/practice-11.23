@@ -1,8 +1,9 @@
 package com.example;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
-@Component
+@ComponentScan("com.example")
 public class SampleBean {
 	private String name;
 
